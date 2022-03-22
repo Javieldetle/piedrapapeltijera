@@ -20,7 +20,7 @@ public class MoveWords{
     public boolean isValidMoveCommand(String value){
 
 	    for (int i =0; i< validMoves.length; i++){
-	        if(validMoves[i].equals(value))
+	        if(validMoves[i].equals(value)) 
 	    	    return true;
 	    }
 	    
