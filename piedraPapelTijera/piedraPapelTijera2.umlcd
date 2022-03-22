@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_-qK_8KojEeydhrAqYvfUBg">
   <modelElement href="piedraPapelTijera2.uml#__GrVwKojEeydhrAqYvfUBg"/>
-  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="__W_psKojEeydhrAqYvfUBg" targetItem="__XQIYKojEeydhrAqYvfUBg" sourceItem="__W90gKojEeydhrAqYvfUBg"/>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="__XPhUKojEeydhrAqYvfUBg" sourceAnchor="359.0,117.0" targetAnchor="121.0,162.0" target="__ZQ6kKojEeydhrAqYvfUBg" source="__XQIYKojEeydhrAqYvfUBg">
     <modelElement href="piedraPapelTijera2.uml#__K0O4KojEeydhrAqYvfUBg"/>
     <bendpoints xmi:id="__n9d4KojEeydhrAqYvfUBg" sourceX="216" targetY="172"/>
@@ -83,13 +82,11 @@
       <cardinality xmi:id="__ZQTiKojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
     </targetRole>
   </edges>
-  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="__W90gKojEeydhrAqYvfUBg" sourceConnectionVisual="__W_psKojEeydhrAqYvfUBg" text="Clase principal.&#xA;VersiÃ³n 1.0&#xA;Autor: Profesor Entorno Desarrollo" item="__XQIYKojEeydhrAqYvfUBg">
-    <modelElement href="piedraPapelTijera2.uml#__KwkgqojEeydhrAqYvfUBg"/>
-  </nodes>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_L_cigKolEeydhrAqYvfUBg" targetItem="__XQIYKojEeydhrAqYvfUBg" sourceItem="_L_atUKolEeydhrAqYvfUBg"/>
   <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="__YoocKojEeydhrAqYvfUBg" sourceConnectionVisual="__YoocaojEeydhrAqYvfUBg" text="Class that stores a move" item="__YqdoKojEeydhrAqYvfUBg">
     <modelElement href="piedraPapelTijera2.uml#__KxyoKojEeydhrAqYvfUBg"/>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__XQIYKojEeydhrAqYvfUBg" comments="__W90gKojEeydhrAqYvfUBg" targetConnectionVisual="__W_psKojEeydhrAqYvfUBg" name="Game" associationsOut="__XPhUKojEeydhrAqYvfUBg">
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__XQIYKojEeydhrAqYvfUBg" comments="_L_atUKolEeydhrAqYvfUBg" targetConnectionVisual="_L_cigKolEeydhrAqYvfUBg" name="Game" associationsOut="__XPhUKojEeydhrAqYvfUBg">
     <modelElement href="piedraPapelTijera2.uml#__HWEIKojEeydhrAqYvfUBg"/>
     <visualProperties xmi:id="__XQIYaojEeydhrAqYvfUBg" position="71.0,535.0" size="-1.0,-1.0"/>
     <visibility xmi:id="__XQIYqojEeydhrAqYvfUBg" label="+"/>
@@ -305,7 +302,7 @@
         <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
       </type>
     </attributes>
-    <attributes xmi:id="__Y-mvKojEeydhrAqYvfUBg" defaultValue="{&quot;TIJERAS&quot;, &quot;PAPEL&quot;, &quot;PIEDRA&quot;, &quot;LAGARTIJA&quot;,&quot;SPOCK&quot;}" name="validMoves" staticAttribute="true">
+    <attributes xmi:id="__Y-mvKojEeydhrAqYvfUBg" defaultValue="{&quot;TIJERAS&quot;, &quot;PAPEL&quot;, &quot;PIEDRA&quot;, &quot;TORITO&quot;,&quot;SEPIA&quot;}" name="validMoves" staticAttribute="true">
       <modelElement href="piedraPapelTijera2.uml#__KLVsKojEeydhrAqYvfUBg"/>
       <stereotypes xmi:id="__Y-mvaojEeydhrAqYvfUBg" name="Array">
         <modelElement href="piedraPapelTijera2.uml#__KLVsqojEeydhrAqYvfUBg"/>
@@ -500,5 +497,8 @@
         </type>
       </outParameters>
     </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_L_atUKolEeydhrAqYvfUBg" sourceConnectionVisual="_L_cigKolEeydhrAqYvfUBg" text="Clase principal.&#xA;VersiÃ³n 1.0&#xA;Autor: Profesor Entorno Desarrollo" item="__XQIYKojEeydhrAqYvfUBg">
+    <modelElement href="piedraPapelTijera2.uml#_L_CS0KolEeydhrAqYvfUBg"/>
   </nodes>
 </com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

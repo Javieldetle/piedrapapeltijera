@@ -4,7 +4,7 @@
     <eAnnotations xmi:id="_-2AcgKojEeydhrAqYvfUBg" source="http://ns.yatta.de/umllab">
       <contents xmi:type="ecore:EAnnotation" xmi:id="_-2BDkKojEeydhrAqYvfUBg" source="codegen">
         <details xmi:id="_-2BDkaojEeydhrAqYvfUBg" key="codegenDirectory" value="/piedraPapelTijera/src"/>
-        <details xmi:id="__Wt84KojEeydhrAqYvfUBg" key="AssociatedSourceCode" value="/piedraPapelTijera/src/piedraPapelTijera/Game.java;3290016988/1;/piedraPapelTijera/src/piedraPapelTijera/Move.java;2897032871/1;/piedraPapelTijera/src/piedraPapelTijera/MoveWords.java;3567471039/1;/piedraPapelTijera/src/piedraPapelTijera/Parser.java;2278185898/1;"/>
+        <details xmi:id="__Wt84KojEeydhrAqYvfUBg" key="AssociatedSourceCode" value="/piedraPapelTijera/src/piedraPapelTijera/Game.java;1983390860/1;/piedraPapelTijera/src/piedraPapelTijera/Move.java;2897032871/1;/piedraPapelTijera/src/piedraPapelTijera/MoveWords.java;1110297713/1;/piedraPapelTijera/src/piedraPapelTijera/Parser.java;2278185898/1;"/>
       </contents>
     </eAnnotations>
     <elementImport xmi:id="__Gd6YKojEeydhrAqYvfUBg">
@@ -36,21 +36,23 @@
     </elementImport>
     <packagedElement xmi:type="uml:Package" xmi:id="__GrVwKojEeydhrAqYvfUBg" name="piedraPapelTijera">
       <packagedElement xmi:type="uml:Class" xmi:id="__HWEIKojEeydhrAqYvfUBg" name="Game">
-        <ownedComment xmi:id="__KwkgqojEeydhrAqYvfUBg">
+        <ownedComment xmi:id="_L_CS0KolEeydhrAqYvfUBg">
           <body>Clase principal.
 VersiÃ³n 1.0
 Autor: Profesor Entorno Desarrollo</body>
         </ownedComment>
         <ownedAttribute xmi:id="__KHrUKojEeydhrAqYvfUBg" name="parser" visibility="private" type="__Hz-MKojEeydhrAqYvfUBg" association="__K0O4KojEeydhrAqYvfUBg"/>
         <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__KhT8KojEeydhrAqYvfUBg" name="Game" specification="__Ha8oKojEeydhrAqYvfUBg">
-          <ownedParameter xmi:id="__Kh7AKojEeydhrAqYvfUBg" type="__HWEIKojEeydhrAqYvfUBg" direction="return"/>
+          <ownedParameter xmi:id="__Kh7AKojEeydhrAqYvfUBg" type="__HWEIKojEeydhrAqYvfUBg" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
           <language>java</language>
           <body>parser = new Parser();
 	</body>
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__KoosKojEeydhrAqYvfUBg" name="welcome" specification="__Hcx0aojEeydhrAqYvfUBg">
           <language>java</language>
-          <body>System.out.println(&quot;Bienvenido a nuestro pequeñoo juego: Piedra Papel Tijeras Lagatija SPOCK :-D&quot;);
+          <body>System.out.println(&quot;Bienvenido a nuestro pequeñoo juego: Piedra Papel Tijeras torito sepia :-D&quot;);
 	</body>
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__KpPwKojEeydhrAqYvfUBg" name="printHelp" specification="__HdY4KojEeydhrAqYvfUBg">
@@ -61,7 +63,9 @@ Autor: Profesor Entorno Desarrollo</body>
 	</body>
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__KpPwaojEeydhrAqYvfUBg" name="computerMove" specification="__HdY4aojEeydhrAqYvfUBg">
-          <ownedParameter xmi:id="__KpPwqojEeydhrAqYvfUBg" type="__HlUsKojEeydhrAqYvfUBg" direction="return"/>
+          <ownedParameter xmi:id="__KpPwqojEeydhrAqYvfUBg" type="__HlUsKojEeydhrAqYvfUBg" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
           <language>java</language>
           <body>return parser.newRandomMove();
 	</body>
@@ -91,6 +95,7 @@ Autor: Profesor Entorno Desarrollo</body>
         <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__Kqd4KojEeydhrAqYvfUBg" name="processMove" specification="__J5o4KojEeydhrAqYvfUBg">
           <ownedParameter xmi:id="__Kqd4aojEeydhrAqYvfUBg" name="move" type="__HlUsKojEeydhrAqYvfUBg"/>
           <ownedParameter xmi:id="__Kqd4qojEeydhrAqYvfUBg" direction="return">
+            <name xsi:nil="true"/>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
           <language>java</language>
@@ -257,7 +262,7 @@ Autor: Profesor Entorno Desarrollo</body>
         <ownedAttribute xmi:id="__KLVsKojEeydhrAqYvfUBg" name="validMoves" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__KLVsaojEeydhrAqYvfUBg" value="*"/>
-          <defaultValue xmi:type="uml:LiteralString" xmi:id="__KL8wKojEeydhrAqYvfUBg" value="{&quot;TIJERAS&quot;, &quot;PAPEL&quot;, &quot;PIEDRA&quot;, &quot;LAGARTIJA&quot;,&quot;SPOCK&quot;}"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="__KL8wKojEeydhrAqYvfUBg" value="{&quot;TIJERAS&quot;, &quot;PAPEL&quot;, &quot;PIEDRA&quot;, &quot;TORITO&quot;,&quot;SEPIA&quot;}"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="__KL8waojEeydhrAqYvfUBg" name="validCommands" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -266,7 +271,9 @@ Autor: Profesor Entorno Desarrollo</body>
         </ownedAttribute>
         <ownedAttribute xmi:id="__KNK4qojEeydhrAqYvfUBg" name="rnd" visibility="private" type="__J8FIKojEeydhrAqYvfUBg" association="__K1dAaojEeydhrAqYvfUBg"/>
         <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__KthMKojEeydhrAqYvfUBg" name="MoveWords" specification="__HspcKojEeydhrAqYvfUBg">
-          <ownedParameter xmi:id="__KthMaojEeydhrAqYvfUBg" type="__HqNMKojEeydhrAqYvfUBg" direction="return"/>
+          <ownedParameter xmi:id="__KthMaojEeydhrAqYvfUBg" type="__HqNMKojEeydhrAqYvfUBg" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
           <language>java</language>
           <body>rnd = new Random();
  </body>
@@ -276,6 +283,7 @@ Autor: Profesor Entorno Desarrollo</body>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedParameter>
           <ownedParameter xmi:id="__KuIQqojEeydhrAqYvfUBg" direction="return">
+            <name xsi:nil="true"/>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
           <language>java</language>
@@ -294,6 +302,7 @@ Autor: Profesor Entorno Desarrollo</body>
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__KuIQ6ojEeydhrAqYvfUBg" name="randomMove" specification="__Ht3kaojEeydhrAqYvfUBg">
           <ownedParameter xmi:id="__KuIRKojEeydhrAqYvfUBg" direction="return">
+            <name xsi:nil="true"/>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedParameter>
           <language>java</language>
@@ -326,6 +335,7 @@ Autor: Profesor Entorno Desarrollo</body>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedParameter>
           <ownedParameter xmi:id="__KuvVaojEeydhrAqYvfUBg" direction="return">
+            <name xsi:nil="true"/>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
           </ownedParameter>
           <language>java</language>
@@ -344,6 +354,7 @@ Autor: Profesor Entorno Desarrollo</body>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedParameter>
           <ownedParameter xmi:id="__KvWY6ojEeydhrAqYvfUBg" direction="return">
+            <name xsi:nil="true"/>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
           </ownedParameter>
           <language>java</language>
