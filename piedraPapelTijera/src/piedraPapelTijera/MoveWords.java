@@ -22,7 +22,7 @@ public class MoveWords{
 	    for (int i =0; i< validMoves.length; i++){
 	        if(validMoves[i].equals(value)) 
 	    	    return true;
-	    }
+	    } 
 	    
 	    for (int i =0; i< validCommands.length; i++){
 	        if(validCommands[i].equals(value))
