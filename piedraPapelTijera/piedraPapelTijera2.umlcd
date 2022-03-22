@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_-qK_8KojEeydhrAqYvfUBg">
+  <modelElement href="piedraPapelTijera2.uml#__GrVwKojEeydhrAqYvfUBg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="__W_psKojEeydhrAqYvfUBg" targetItem="__XQIYKojEeydhrAqYvfUBg" sourceItem="__W90gKojEeydhrAqYvfUBg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="__XPhUKojEeydhrAqYvfUBg" sourceAnchor="359.0,117.0" targetAnchor="121.0,162.0" target="__ZQ6kKojEeydhrAqYvfUBg" source="__XQIYKojEeydhrAqYvfUBg">
+    <modelElement href="piedraPapelTijera2.uml#__K0O4KojEeydhrAqYvfUBg"/>
+    <bendpoints xmi:id="__n9d4KojEeydhrAqYvfUBg" sourceX="216" targetY="172"/>
+    <stereotypes xmi:id="__XPhUaojEeydhrAqYvfUBg" name="Reference">
+      <modelElement href="piedraPapelTijera2.uml#__K1dAKojEeydhrAqYvfUBg"/>
+    </stereotypes>
+    <nameVisual xmi:id="__XPhUqojEeydhrAqYvfUBg" text="">
+      <visualProperties xmi:id="__n_6IKojEeydhrAqYvfUBg" position="-140.95931551171202,-20.392955206398085"/>
+    </nameVisual>
+    <sourceRole xmi:id="__XPhU6ojEeydhrAqYvfUBg" aggregationKind="NONE" name="">
+      <modelElement href="piedraPapelTijera2.uml#__K0O4aojEeydhrAqYvfUBg"/>
+      <visualProperties xmi:id="__n-sAKojEeydhrAqYvfUBg" position="37.94917770511694,-38.676898864335556"/>
+      <visibility xmi:id="__XPhVKojEeydhrAqYvfUBg" label="+"/>
+      <cardinality xmi:id="__XPhVaojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="__XPhVqojEeydhrAqYvfUBg" aggregationKind="NONE" name="parser" navigable="true">
+      <modelElement href="piedraPapelTijera2.uml#__KHrUKojEeydhrAqYvfUBg"/>
+      <visualProperties xmi:id="__oAhMKojEeydhrAqYvfUBg" position="-110.14591243834502,134.22969545363267"/>
+      <visibility xmi:id="__XPhV6ojEeydhrAqYvfUBg" label="-"/>
+      <cardinality xmi:id="__XPhWKojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="__YoocaojEeydhrAqYvfUBg" targetItem="__YqdoKojEeydhrAqYvfUBg" sourceItem="__YoocKojEeydhrAqYvfUBg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="__YzAgKojEeydhrAqYvfUBg" sourceAnchor="39.0,0.0" targetAnchor="209.0,369.0" target="__Y9_oKojEeydhrAqYvfUBg" source="__ZQ6kKojEeydhrAqYvfUBg">
+    <modelElement href="piedraPapelTijera2.uml#__K3SMKojEeydhrAqYvfUBg"/>
+    <stereotypes xmi:id="__Y6VQqojEeydhrAqYvfUBg" name="Reference">
+      <modelElement href="piedraPapelTijera2.uml#__K4gUKojEeydhrAqYvfUBg"/>
+    </stereotypes>
+    <nameVisual xmi:id="__Y2q4KojEeydhrAqYvfUBg" text="">
+      <visualProperties xmi:id="__oC9cKojEeydhrAqYvfUBg" position="-27.737678425716126,-106.94102764048796"/>
+    </nameVisual>
+    <sourceRole xmi:id="__Y6VQKojEeydhrAqYvfUBg" aggregationKind="NONE" name="">
+      <modelElement href="piedraPapelTijera2.uml#__K3SMaojEeydhrAqYvfUBg"/>
+      <visualProperties xmi:id="__oBvUKojEeydhrAqYvfUBg" position="-18.777028584731852,-80.02693238995727"/>
+      <visibility xmi:id="__Y7jYKojEeydhrAqYvfUBg" label="+"/>
+      <cardinality xmi:id="__Y68UKojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="__Y6VQaojEeydhrAqYvfUBg" aggregationKind="NONE" name="moves" navigable="true">
+      <modelElement href="piedraPapelTijera2.uml#__KPnIKojEeydhrAqYvfUBg"/>
+      <visualProperties xmi:id="__oELkKojEeydhrAqYvfUBg" position="-39.91990496508333,-160.43417910415747"/>
+      <stereotypes xmi:id="__Y7jY6ojEeydhrAqYvfUBg" name="LegacyStyledElement">
+        <modelElement href="piedraPapelTijera2.uml#__KT4kKojEeydhrAqYvfUBg"/>
+      </stereotypes>
+      <visibility xmi:id="__Y7jYqojEeydhrAqYvfUBg" label="-"/>
+      <cardinality xmi:id="__Y7jYaojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="__Y8xgKojEeydhrAqYvfUBg" source="__Y9_oKojEeydhrAqYvfUBg">
+    <modelElement href="piedraPapelTijera2.uml#__K1dAaojEeydhrAqYvfUBg"/>
+    <stereotypes xmi:id="__Y8xgaojEeydhrAqYvfUBg" name="Reference">
+      <modelElement href="piedraPapelTijera2.uml#__K2rIKojEeydhrAqYvfUBg"/>
+    </stereotypes>
+    <nameVisual xmi:id="__Y8xgqojEeydhrAqYvfUBg" text=""/>
+    <sourceRole xmi:id="__Y8xg6ojEeydhrAqYvfUBg" aggregationKind="NONE" name="">
+      <modelElement href="piedraPapelTijera2.uml#__K1dAqojEeydhrAqYvfUBg"/>
+      <visibility xmi:id="__Y8xhKojEeydhrAqYvfUBg" label="+"/>
+      <cardinality xmi:id="__Y8xhaojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="__Y8xhqojEeydhrAqYvfUBg" aggregationKind="NONE" name="rnd" navigable="true">
+      <modelElement href="piedraPapelTijera2.uml#__KNK4qojEeydhrAqYvfUBg"/>
+      <visibility xmi:id="__Y8xh6ojEeydhrAqYvfUBg" label="-"/>
+      <cardinality xmi:id="__Y8xiKojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="__ZQTgKojEeydhrAqYvfUBg" source="__ZQ6kKojEeydhrAqYvfUBg">
+    <modelElement href="piedraPapelTijera2.uml#__K4gUaojEeydhrAqYvfUBg"/>
+    <stereotypes xmi:id="__ZQTgaojEeydhrAqYvfUBg" name="Reference">
+      <modelElement href="piedraPapelTijera2.uml#__K68kKojEeydhrAqYvfUBg"/>
+    </stereotypes>
+    <nameVisual xmi:id="__ZQTgqojEeydhrAqYvfUBg" text=""/>
+    <sourceRole xmi:id="__ZQTg6ojEeydhrAqYvfUBg" aggregationKind="NONE" name="">
+      <modelElement href="piedraPapelTijera2.uml#__K4gUqojEeydhrAqYvfUBg"/>
+      <visibility xmi:id="__ZQThKojEeydhrAqYvfUBg" label="+"/>
+      <cardinality xmi:id="__ZQThaojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="__ZQThqojEeydhrAqYvfUBg" aggregationKind="NONE" name="reader" navigable="true">
+      <modelElement href="piedraPapelTijera2.uml#__KUfoKojEeydhrAqYvfUBg"/>
+      <visibility xmi:id="__ZQTh6ojEeydhrAqYvfUBg" label="-"/>
+      <cardinality xmi:id="__ZQTiKojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="__W90gKojEeydhrAqYvfUBg" sourceConnectionVisual="__W_psKojEeydhrAqYvfUBg" text="Clase principal.&#xA;VersiÃ³n 1.0&#xA;Autor: Profesor Entorno Desarrollo" item="__XQIYKojEeydhrAqYvfUBg">
+    <modelElement href="piedraPapelTijera2.uml#__KwkgqojEeydhrAqYvfUBg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="__YoocKojEeydhrAqYvfUBg" sourceConnectionVisual="__YoocaojEeydhrAqYvfUBg" text="Class that stores a move" item="__YqdoKojEeydhrAqYvfUBg">
+    <modelElement href="piedraPapelTijera2.uml#__KxyoKojEeydhrAqYvfUBg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__XQIYKojEeydhrAqYvfUBg" comments="__W90gKojEeydhrAqYvfUBg" targetConnectionVisual="__W_psKojEeydhrAqYvfUBg" name="Game" associationsOut="__XPhUKojEeydhrAqYvfUBg">
+    <modelElement href="piedraPapelTijera2.uml#__HWEIKojEeydhrAqYvfUBg"/>
+    <visualProperties xmi:id="__XQIYaojEeydhrAqYvfUBg" position="71.0,535.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="__XQIYqojEeydhrAqYvfUBg" label="+"/>
+    <attributes xmi:id="__XQIY6ojEeydhrAqYvfUBg" name="parser">
+      <modelElement href="piedraPapelTijera2.uml#__KHrUKojEeydhrAqYvfUBg"/>
+      <stereotypes xmi:id="__XQIZKojEeydhrAqYvfUBg" name="LegacyStyledElement">
+        <modelElement href="piedraPapelTijera2.uml#__KISYKojEeydhrAqYvfUBg"/>
+      </stereotypes>
+      <visibility xmi:id="__XQIZaojEeydhrAqYvfUBg" label="-"/>
+      <cardinality xmi:id="__XQIZqojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+      <type xmi:id="__XQIZ6ojEeydhrAqYvfUBg" name="Parser">
+        <modelElement href="piedraPapelTijera2.uml#__Hz-MKojEeydhrAqYvfUBg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="__XQIaKojEeydhrAqYvfUBg" name="Game">
+      <modelElement href="piedraPapelTijera2.uml#__Ha8oKojEeydhrAqYvfUBg"/>
+      <keywords xmi:id="__XQIaaojEeydhrAqYvfUBg" keyword="create"/>
+      <visibility xmi:id="__XQIaqojEeydhrAqYvfUBg" label="+"/>
+      <cardinality xmi:id="__XQIa6ojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__XQvcKojEeydhrAqYvfUBg">
+        <modelElement href="piedraPapelTijera2.uml#__Hcx0KojEeydhrAqYvfUBg"/>
+        <type xmi:id="__XQvcaojEeydhrAqYvfUBg" name="Game">
+          <modelElement href="piedraPapelTijera2.uml#__HWEIKojEeydhrAqYvfUBg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="__XQvcqojEeydhrAqYvfUBg" name="welcome">
+      <modelElement href="piedraPapelTijera2.uml#__Hcx0aojEeydhrAqYvfUBg"/>
+      <visibility xmi:id="__XQvc6ojEeydhrAqYvfUBg" label="-"/>
+      <cardinality xmi:id="__XQvdKojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="__XQvdaojEeydhrAqYvfUBg" name="printHelp">
+      <modelElement href="piedraPapelTijera2.uml#__HdY4KojEeydhrAqYvfUBg"/>
+      <visibility xmi:id="__XQvdqojEeydhrAqYvfUBg" label="-"/>
+      <cardinality xmi:id="__XQvd6ojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="__XQveKojEeydhrAqYvfUBg" name="computerMove">
+      <modelElement href="piedraPapelTijera2.uml#__HdY4aojEeydhrAqYvfUBg"/>
+      <visibility xmi:id="__XQveaojEeydhrAqYvfUBg" label="-"/>
+      <cardinality xmi:id="__XQveqojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__XQve6ojEeydhrAqYvfUBg">
+        <modelElement href="piedraPapelTijera2.uml#__J4awKojEeydhrAqYvfUBg"/>
+        <type xmi:id="__XQvfKojEeydhrAqYvfUBg" name="Move">
+          <modelElement href="piedraPapelTijera2.uml#__HlUsKojEeydhrAqYvfUBg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="__XQvfaojEeydhrAqYvfUBg" name="printWinner">
+      <modelElement href="piedraPapelTijera2.uml#__HfOEKojEeydhrAqYvfUBg"/>
+      <visibility xmi:id="__XQvfqojEeydhrAqYvfUBg" label="-"/>
+      <cardinality xmi:id="__XQvf6ojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+      <parameters xmi:id="__XQvgKojEeydhrAqYvfUBg" name="who">
+        <modelElement href="piedraPapelTijera2.uml#__HfOEaojEeydhrAqYvfUBg"/>
+        <cardinality xmi:id="__XQvgaojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+        <type xmi:id="__XQvgqojEeydhrAqYvfUBg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__XQvg6ojEeydhrAqYvfUBg" name="playGame">
+      <modelElement href="piedraPapelTijera2.uml#__HgcMKojEeydhrAqYvfUBg"/>
+      <visibility xmi:id="__XQvhKojEeydhrAqYvfUBg" label="+"/>
+      <cardinality xmi:id="__XQvhaojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="__XQvhqojEeydhrAqYvfUBg" name="main" staticOperation="true">
+      <modelElement href="piedraPapelTijera2.uml#__HhDQKojEeydhrAqYvfUBg"/>
+      <visibility xmi:id="__XQvh6ojEeydhrAqYvfUBg" label="+"/>
+      <cardinality xmi:id="__XQviKojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+      <parameters xmi:id="__XQviaojEeydhrAqYvfUBg" name="args">
+        <modelElement href="piedraPapelTijera2.uml#__HhqUKojEeydhrAqYvfUBg"/>
+        <cardinality xmi:id="__XQviqojEeydhrAqYvfUBg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="__XQvi6ojEeydhrAqYvfUBg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__XQvjKojEeydhrAqYvfUBg" name="printMoves">
+      <modelElement href="piedraPapelTijera2.uml#__J5B0KojEeydhrAqYvfUBg"/>
+      <visibility xmi:id="__XQvjaojEeydhrAqYvfUBg" label="-"/>
+      <cardinality xmi:id="__XQvjqojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+      <parameters xmi:id="__XQvj6ojEeydhrAqYvfUBg" name="player">
+        <modelElement href="piedraPapelTijera2.uml#__J5B0aojEeydhrAqYvfUBg"/>
+        <cardinality xmi:id="__XQvkKojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+        <type xmi:id="__XQvkaojEeydhrAqYvfUBg" name="Move">
+          <modelElement href="piedraPapelTijera2.uml#__HlUsKojEeydhrAqYvfUBg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="__XQvkqojEeydhrAqYvfUBg" name="computer">
+        <modelElement href="piedraPapelTijera2.uml#__J5B0qojEeydhrAqYvfUBg"/>
+        <cardinality xmi:id="__XQvk6ojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+        <type xmi:id="__XQvlKojEeydhrAqYvfUBg" name="Move">
+          <modelElement href="piedraPapelTijera2.uml#__HlUsKojEeydhrAqYvfUBg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__XQvlaojEeydhrAqYvfUBg" name="processMove">
+      <modelElement href="piedraPapelTijera2.uml#__J5o4KojEeydhrAqYvfUBg"/>
+      <visibility xmi:id="__XQvlqojEeydhrAqYvfUBg" label="-"/>
+      <cardinality xmi:id="__XQvl6ojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__XQvmKojEeydhrAqYvfUBg">
+        <modelElement href="piedraPapelTijera2.uml#__J5o4qojEeydhrAqYvfUBg"/>
+        <type xmi:id="__XQvmaojEeydhrAqYvfUBg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__XQvmqojEeydhrAqYvfUBg" name="move">
+        <modelElement href="piedraPapelTijera2.uml#__J5o4aojEeydhrAqYvfUBg"/>
+        <cardinality xmi:id="__XQvm6ojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+        <type xmi:id="__XQvnKojEeydhrAqYvfUBg" name="Move">
+          <modelElement href="piedraPapelTijera2.uml#__HlUsKojEeydhrAqYvfUBg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__YqdoKojEeydhrAqYvfUBg" comments="__YoocKojEeydhrAqYvfUBg" targetConnectionVisual="__YoocaojEeydhrAqYvfUBg" name="Move">
+    <modelElement href="piedraPapelTijera2.uml#__HlUsKojEeydhrAqYvfUBg"/>
+    <visualProperties xmi:id="__YqdoaojEeydhrAqYvfUBg" position="897.0,505.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="__YqdoqojEeydhrAqYvfUBg" label="+"/>
+    <attributes xmi:id="__Yqdo6ojEeydhrAqYvfUBg" name="move">
+      <modelElement href="piedraPapelTijera2.uml#__KI5cKojEeydhrAqYvfUBg"/>
+      <visibility xmi:id="__YqdpKojEeydhrAqYvfUBg" label="+"/>
+      <cardinality xmi:id="__YqdpaojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+      <type xmi:id="__YqdpqojEeydhrAqYvfUBg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="__Yqdp6ojEeydhrAqYvfUBg" name="Move">
+      <modelElement href="piedraPapelTijera2.uml#__Hmi0KojEeydhrAqYvfUBg"/>
+      <keywords xmi:id="__YqdqKojEeydhrAqYvfUBg" keyword="create"/>
+      <visibility xmi:id="__YqdqaojEeydhrAqYvfUBg" label="+"/>
+      <cardinality xmi:id="__YqdqqojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__Yqdq6ojEeydhrAqYvfUBg">
+        <modelElement href="piedraPapelTijera2.uml#__Hmi06ojEeydhrAqYvfUBg"/>
+        <type xmi:id="__YqdrKojEeydhrAqYvfUBg" name="Move">
+          <modelElement href="piedraPapelTijera2.uml#__HlUsKojEeydhrAqYvfUBg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="__YqdraojEeydhrAqYvfUBg" name="Move">
+      <modelElement href="piedraPapelTijera2.uml#__HnJ4KojEeydhrAqYvfUBg"/>
+      <keywords xmi:id="__YqdrqojEeydhrAqYvfUBg" keyword="create"/>
+      <visibility xmi:id="__Yqdr6ojEeydhrAqYvfUBg" label="+"/>
+      <cardinality xmi:id="__YqdsKojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__YqdsaojEeydhrAqYvfUBg">
+        <modelElement href="piedraPapelTijera2.uml#__Hnw86ojEeydhrAqYvfUBg"/>
+        <type xmi:id="__YqdsqojEeydhrAqYvfUBg" name="Move">
+          <modelElement href="piedraPapelTijera2.uml#__HlUsKojEeydhrAqYvfUBg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__Yqds6ojEeydhrAqYvfUBg" name="move">
+        <modelElement href="piedraPapelTijera2.uml#__Hnw8KojEeydhrAqYvfUBg"/>
+        <cardinality xmi:id="__YqdtKojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+        <type xmi:id="__YqdtaojEeydhrAqYvfUBg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__YqdtqojEeydhrAqYvfUBg" name="isUnknown">
+      <modelElement href="piedraPapelTijera2.uml#__HoYAKojEeydhrAqYvfUBg"/>
+      <visibility xmi:id="__Yqdt6ojEeydhrAqYvfUBg" label="+"/>
+      <cardinality xmi:id="__YqduKojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__YqduaojEeydhrAqYvfUBg">
+        <modelElement href="piedraPapelTijera2.uml#__HoYAaojEeydhrAqYvfUBg"/>
+        <type xmi:id="__YrEsKojEeydhrAqYvfUBg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="__YrEsaojEeydhrAqYvfUBg" name="beats">
+      <modelElement href="piedraPapelTijera2.uml#__J63AKojEeydhrAqYvfUBg"/>
+      <visibility xmi:id="__YrEsqojEeydhrAqYvfUBg" label="+"/>
+      <cardinality xmi:id="__YrEs6ojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__YrEtKojEeydhrAqYvfUBg">
+        <modelElement href="piedraPapelTijera2.uml#__J7eEKojEeydhrAqYvfUBg"/>
+        <type xmi:id="__YrEtaojEeydhrAqYvfUBg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__YrEtqojEeydhrAqYvfUBg" name="other">
+        <modelElement href="piedraPapelTijera2.uml#__J63AaojEeydhrAqYvfUBg"/>
+        <cardinality xmi:id="__YrEt6ojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+        <type xmi:id="__YrEuKojEeydhrAqYvfUBg" name="Move">
+          <modelElement href="piedraPapelTijera2.uml#__HlUsKojEeydhrAqYvfUBg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__Y9_oKojEeydhrAqYvfUBg" name="MoveWords" associationsIn="__YzAgKojEeydhrAqYvfUBg" associationsOut="__Y8xgKojEeydhrAqYvfUBg">
+    <modelElement href="piedraPapelTijera2.uml#__HqNMKojEeydhrAqYvfUBg"/>
+    <visualProperties xmi:id="__Y9_oaojEeydhrAqYvfUBg" position="355.0,-106.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="__Y9_oqojEeydhrAqYvfUBg" label="+"/>
+    <attributes xmi:id="__Y-msKojEeydhrAqYvfUBg" defaultValue="0" name="EMPATE" staticAttribute="true">
+      <modelElement href="piedraPapelTijera2.uml#__KJggKojEeydhrAqYvfUBg"/>
+      <visibility xmi:id="__Y-msaojEeydhrAqYvfUBg" label="+"/>
+      <cardinality xmi:id="__Y-msqojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+      <type xmi:id="__Y-ms6ojEeydhrAqYvfUBg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__Y-mtKojEeydhrAqYvfUBg" defaultValue="1" name="GANA" staticAttribute="true">
+      <modelElement href="piedraPapelTijera2.uml#__KKHkKojEeydhrAqYvfUBg"/>
+      <visibility xmi:id="__Y-mtaojEeydhrAqYvfUBg" label="+"/>
+      <cardinality xmi:id="__Y-mtqojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+      <type xmi:id="__Y-mt6ojEeydhrAqYvfUBg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__Y-muKojEeydhrAqYvfUBg" defaultValue="2" name="PIERDE" staticAttribute="true">
+      <modelElement href="piedraPapelTijera2.uml#__KKuoaojEeydhrAqYvfUBg"/>
+      <visibility xmi:id="__Y-muaojEeydhrAqYvfUBg" label="+"/>
+      <cardinality xmi:id="__Y-muqojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+      <type xmi:id="__Y-mu6ojEeydhrAqYvfUBg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__Y-mvKojEeydhrAqYvfUBg" defaultValue="{&quot;TIJERAS&quot;, &quot;PAPEL&quot;, &quot;PIEDRA&quot;, &quot;LAGARTIJA&quot;,&quot;SPOCK&quot;}" name="validMoves" staticAttribute="true">
+      <modelElement href="piedraPapelTijera2.uml#__KLVsKojEeydhrAqYvfUBg"/>
+      <stereotypes xmi:id="__Y-mvaojEeydhrAqYvfUBg" name="Array">
+        <modelElement href="piedraPapelTijera2.uml#__KLVsqojEeydhrAqYvfUBg"/>
+      </stereotypes>
+      <visibility xmi:id="__Y-mvqojEeydhrAqYvfUBg" label="-"/>
+      <cardinality xmi:id="__Y-mv6ojEeydhrAqYvfUBg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="__Y-mwKojEeydhrAqYvfUBg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__Y-mwaojEeydhrAqYvfUBg" defaultValue="{&quot;SALIR&quot;, &quot;HELP&quot;}" name="validCommands" staticAttribute="true">
+      <modelElement href="piedraPapelTijera2.uml#__KL8waojEeydhrAqYvfUBg"/>
+      <stereotypes xmi:id="__Y-mwqojEeydhrAqYvfUBg" name="Array">
+        <modelElement href="piedraPapelTijera2.uml#__KNK4KojEeydhrAqYvfUBg"/>
+      </stereotypes>
+      <visibility xmi:id="__Y-mw6ojEeydhrAqYvfUBg" label="-"/>
+      <cardinality xmi:id="__Y-mxKojEeydhrAqYvfUBg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="__Y-mxaojEeydhrAqYvfUBg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__Y-mxqojEeydhrAqYvfUBg" name="rnd">
+      <modelElement href="piedraPapelTijera2.uml#__KNK4qojEeydhrAqYvfUBg"/>
+      <stereotypes xmi:id="__Y-mx6ojEeydhrAqYvfUBg" name="LegacyStyledElement">
+        <modelElement href="piedraPapelTijera2.uml#__KOZAKojEeydhrAqYvfUBg"/>
+      </stereotypes>
+      <visibility xmi:id="__Y-myKojEeydhrAqYvfUBg" label="-"/>
+      <cardinality xmi:id="__Y-myaojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+      <type xmi:id="__Y-myqojEeydhrAqYvfUBg" name="Random">
+        <modelElement href="piedraPapelTijera2.uml#__J8FIKojEeydhrAqYvfUBg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="__Y-my6ojEeydhrAqYvfUBg" name="MoveWords">
+      <modelElement href="piedraPapelTijera2.uml#__HspcKojEeydhrAqYvfUBg"/>
+      <keywords xmi:id="__Y-mzKojEeydhrAqYvfUBg" keyword="create"/>
+      <visibility xmi:id="__Y-mzaojEeydhrAqYvfUBg" label="+"/>
+      <cardinality xmi:id="__Y-mzqojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__Y-mz6ojEeydhrAqYvfUBg">
+        <modelElement href="piedraPapelTijera2.uml#__Hspc6ojEeydhrAqYvfUBg"/>
+        <type xmi:id="__Y-m0KojEeydhrAqYvfUBg" name="MoveWords">
+          <modelElement href="piedraPapelTijera2.uml#__HqNMKojEeydhrAqYvfUBg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="__Y-m0aojEeydhrAqYvfUBg" name="isValidMoveCommand">
+      <modelElement href="piedraPapelTijera2.uml#__HtQgKojEeydhrAqYvfUBg"/>
+      <visibility xmi:id="__Y-m0qojEeydhrAqYvfUBg" label="+"/>
+      <cardinality xmi:id="__Y-m06ojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__Y-m1KojEeydhrAqYvfUBg">
+        <modelElement href="piedraPapelTijera2.uml#__Ht3kKojEeydhrAqYvfUBg"/>
+        <type xmi:id="__Y-m1aojEeydhrAqYvfUBg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__Y-m1qojEeydhrAqYvfUBg" name="value">
+        <modelElement href="piedraPapelTijera2.uml#__HtQgaojEeydhrAqYvfUBg"/>
+        <cardinality xmi:id="__Y-m16ojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+        <type xmi:id="__Y-m2KojEeydhrAqYvfUBg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__Y-m2aojEeydhrAqYvfUBg" name="randomMove">
+      <modelElement href="piedraPapelTijera2.uml#__Ht3kaojEeydhrAqYvfUBg"/>
+      <visibility xmi:id="__Y-m2qojEeydhrAqYvfUBg" label="+"/>
+      <cardinality xmi:id="__Y-m26ojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__Y-m3KojEeydhrAqYvfUBg">
+        <modelElement href="piedraPapelTijera2.uml#__HueoKojEeydhrAqYvfUBg"/>
+        <type xmi:id="__Y-m3aojEeydhrAqYvfUBg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="__Y-m3qojEeydhrAqYvfUBg" name="showMoves">
+      <modelElement href="piedraPapelTijera2.uml#__HueoaojEeydhrAqYvfUBg"/>
+      <visibility xmi:id="__Y-m36ojEeydhrAqYvfUBg" label="+"/>
+      <cardinality xmi:id="__Y-m4KojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="__Y-m4aojEeydhrAqYvfUBg" name="showCommands">
+      <modelElement href="piedraPapelTijera2.uml#__HueoqojEeydhrAqYvfUBg"/>
+      <visibility xmi:id="__Y-m4qojEeydhrAqYvfUBg" label="+"/>
+      <cardinality xmi:id="__Y-m46ojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="__Y-m5KojEeydhrAqYvfUBg" name="showWords">
+      <modelElement href="piedraPapelTijera2.uml#__HvFsKojEeydhrAqYvfUBg"/>
+      <visibility xmi:id="__Y-m5aojEeydhrAqYvfUBg" label="+"/>
+      <cardinality xmi:id="__Y-m5qojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="__Y-m56ojEeydhrAqYvfUBg" name="getIndex" staticOperation="true">
+      <modelElement href="piedraPapelTijera2.uml#__HvswKojEeydhrAqYvfUBg"/>
+      <visibility xmi:id="__Y-m6KojEeydhrAqYvfUBg" label="-"/>
+      <cardinality xmi:id="__Y-m6aojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__Y-m6qojEeydhrAqYvfUBg">
+        <modelElement href="piedraPapelTijera2.uml#__HwT0KojEeydhrAqYvfUBg"/>
+        <type xmi:id="__Y-m66ojEeydhrAqYvfUBg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__Y-m7KojEeydhrAqYvfUBg" name="value">
+        <modelElement href="piedraPapelTijera2.uml#__HvswaojEeydhrAqYvfUBg"/>
+        <cardinality xmi:id="__Y-m7aojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+        <type xmi:id="__Y-m7qojEeydhrAqYvfUBg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__Y-m76ojEeydhrAqYvfUBg" name="checkWinner" staticOperation="true">
+      <modelElement href="piedraPapelTijera2.uml#__Hw64KojEeydhrAqYvfUBg"/>
+      <visibility xmi:id="__Y-m8KojEeydhrAqYvfUBg" label="+"/>
+      <cardinality xmi:id="__Y-m8aojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__Y-m8qojEeydhrAqYvfUBg">
+        <modelElement href="piedraPapelTijera2.uml#__Hxh8KojEeydhrAqYvfUBg"/>
+        <type xmi:id="__Y-m86ojEeydhrAqYvfUBg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__Y-m9KojEeydhrAqYvfUBg" name="first">
+        <modelElement href="piedraPapelTijera2.uml#__Hw64aojEeydhrAqYvfUBg"/>
+        <cardinality xmi:id="__Y-m9aojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+        <type xmi:id="__Y-m9qojEeydhrAqYvfUBg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="__Y-m96ojEeydhrAqYvfUBg" name="second">
+        <modelElement href="piedraPapelTijera2.uml#__Hw64qojEeydhrAqYvfUBg"/>
+        <cardinality xmi:id="__Y-m-KojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+        <type xmi:id="__Y-m-aojEeydhrAqYvfUBg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__ZQ6kKojEeydhrAqYvfUBg" name="Parser" associationsIn="__XPhUKojEeydhrAqYvfUBg" associationsOut="__YzAgKojEeydhrAqYvfUBg __ZQTgKojEeydhrAqYvfUBg">
+    <modelElement href="piedraPapelTijera2.uml#__Hz-MKojEeydhrAqYvfUBg"/>
+    <visualProperties xmi:id="__ZQ6kaojEeydhrAqYvfUBg" position="525.0,318.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="__ZQ6kqojEeydhrAqYvfUBg" label="+"/>
+    <attributes xmi:id="__ZQ6k6ojEeydhrAqYvfUBg" name="moves">
+      <modelElement href="piedraPapelTijera2.uml#__KPnIKojEeydhrAqYvfUBg"/>
+      <visibility xmi:id="__ZQ6lKojEeydhrAqYvfUBg" label="-"/>
+      <cardinality xmi:id="__ZQ6laojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+      <type xmi:id="__ZQ6lqojEeydhrAqYvfUBg" name="MoveWords">
+        <modelElement href="piedraPapelTijera2.uml#__HqNMKojEeydhrAqYvfUBg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__ZQ6l6ojEeydhrAqYvfUBg" name="reader">
+      <modelElement href="piedraPapelTijera2.uml#__KUfoKojEeydhrAqYvfUBg"/>
+      <stereotypes xmi:id="__ZQ6mKojEeydhrAqYvfUBg" name="LegacyStyledElement">
+        <modelElement href="piedraPapelTijera2.uml#__KVGsKojEeydhrAqYvfUBg"/>
+      </stereotypes>
+      <visibility xmi:id="__ZQ6maojEeydhrAqYvfUBg" label="-"/>
+      <cardinality xmi:id="__ZQ6mqojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+      <type xmi:id="__ZQ6m6ojEeydhrAqYvfUBg" name="Scanner">
+        <modelElement href="piedraPapelTijera2.uml#__KA9oKojEeydhrAqYvfUBg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="__ZQ6nKojEeydhrAqYvfUBg" name="Parser">
+      <modelElement href="piedraPapelTijera2.uml#__H1MUKojEeydhrAqYvfUBg"/>
+      <keywords xmi:id="__ZQ6naojEeydhrAqYvfUBg" keyword="create"/>
+      <visibility xmi:id="__ZQ6nqojEeydhrAqYvfUBg" label="+"/>
+      <cardinality xmi:id="__ZQ6n6ojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__ZQ6oKojEeydhrAqYvfUBg">
+        <modelElement href="piedraPapelTijera2.uml#__H1MU6ojEeydhrAqYvfUBg"/>
+        <type xmi:id="__ZQ6oaojEeydhrAqYvfUBg" name="Parser">
+          <modelElement href="piedraPapelTijera2.uml#__Hz-MKojEeydhrAqYvfUBg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="__ZQ6oqojEeydhrAqYvfUBg" name="showCommands">
+      <modelElement href="piedraPapelTijera2.uml#__H1zYKojEeydhrAqYvfUBg"/>
+      <visibility xmi:id="__ZQ6o6ojEeydhrAqYvfUBg" label="+"/>
+      <cardinality xmi:id="__ZQ6pKojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="__ZQ6paojEeydhrAqYvfUBg" name="newRandomMove">
+      <modelElement href="piedraPapelTijera2.uml#__H2acKojEeydhrAqYvfUBg"/>
+      <visibility xmi:id="__ZQ6pqojEeydhrAqYvfUBg" label="+"/>
+      <cardinality xmi:id="__ZQ6p6ojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__ZQ6qKojEeydhrAqYvfUBg">
+        <modelElement href="piedraPapelTijera2.uml#__KCy0KojEeydhrAqYvfUBg"/>
+        <type xmi:id="__ZQ6qaojEeydhrAqYvfUBg" name="Move">
+          <modelElement href="piedraPapelTijera2.uml#__HlUsKojEeydhrAqYvfUBg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="__ZQ6qqojEeydhrAqYvfUBg" name="getMove">
+      <modelElement href="piedraPapelTijera2.uml#__H3okKojEeydhrAqYvfUBg"/>
+      <visibility xmi:id="__ZQ6q6ojEeydhrAqYvfUBg" label="+"/>
+      <cardinality xmi:id="__ZQ6rKojEeydhrAqYvfUBg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__ZQ6raojEeydhrAqYvfUBg">
+        <modelElement href="piedraPapelTijera2.uml#__KDZ4KojEeydhrAqYvfUBg"/>
+        <type xmi:id="__ZQ6rqojEeydhrAqYvfUBg" name="Move">
+          <modelElement href="piedraPapelTijera2.uml#__HlUsKojEeydhrAqYvfUBg"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
